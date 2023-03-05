@@ -1,0 +1,117 @@
+
+    /* CSS reset */
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('gym.png');
+        background-size: 100%;
+        color: white;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 15px;
+        text-align: center;
+        color: lavender;
+    }
+
+    .left img {
+        width: 50px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 11px;
+        font-size: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 38%;
+        margin: 0px auto;
+        /* border: 2px solid green; */
+        position: absolute;
+        top: 15px;
+        left: 17cm;
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 28px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 5px;
+        padding: 5px 8px;
+        background-color: black;
+        color: rgb(190, 36, 83);
+        border: 2px solid rgb(190, 36, 83);
+        border-radius: 6px;
+        font-size: 15px;
+    }
+
+    .btn:focus, .btn:hover {
+        box-shadow: 0 0.5em 2.0em -0.4em var(--hover);
+        transform: translateY(-0.25em);
+        color: white;
+        border: 2px solid rgb(187, 141, 16);
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 150px 800px;
+        padding: 50px;
+        width: 33%;
+        border-radius: 22px;
+        border-color: white;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 6px;
+        border: 2px solid blak;
+        margin: 11px auto;
+        border-radius: 10px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        font-size: 20px;
+        color: black;
+    }
+    .container h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: 20px auto;
+    }
